@@ -1,0 +1,24 @@
+score = 0
+print("what is the best subject at OHS?")
+user_answer = input()
+
+if user_answer == "LV1PE":
+ print("you are correct!")
+ score = score+1
+elif user_answer == "LV1DTG":
+ print("Incorrect, try again")
+else:
+  print("Incorrect, try again")
+
+print("Who's your favourite teacher at OHS?")
+user_answer = input()
+
+if user_answer == "Mr Loveridge":
+ print("you are correct")
+ score = score+1
+elif user_answer == "Ms Nolan":
+ print("incorrect, that is completely wrong")
+else:
+  print("ive never heard of them, again")
+
+print("you scored "+str(score))
