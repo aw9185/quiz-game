@@ -1,0 +1,20 @@
+import random
+
+questions = [("why?","because"),
+             ("who?", "your face"),
+             ("when", "tomorrow")]
+    
+def ask_questions():
+  for question in questions:
+    print(question[0])
+    response = input()
+    if response == question[1]:
+      score += 1
+      print("correct")
+    else:
+      print("wrong")
+
+
+
+ask_questions()
+print("you completed the quiz your score was "+str(score))
